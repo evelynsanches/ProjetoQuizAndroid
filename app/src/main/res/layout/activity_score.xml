@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aluno.projetoquiz.ScoreActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total de erros: " />
+
+    <TextView
+        android:id="@+id/score_erros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total de Acertos: " />
+
+    <TextView
+        android:id="@+id/score_acertos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total de Acertos: "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/sobre_jogar_novameente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JOGAR NOVAMENTE" />
+
+</LinearLayout>

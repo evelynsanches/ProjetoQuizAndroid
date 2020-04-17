@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aluno.projetoquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MenuPrincipal" android:label="Quiz">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Perg1Activity" android:label="Pergunta 1"/>
+        <activity android:name=".Perg2Activity" android:label="Pergunta 2"/>
+        <activity android:name=".Perg3Activity" android:label="Pergunta 3"/>
+        <activity android:name=".Perg4Activity" android:label="Pergunta 4"/>
+        <activity android:name=".Perg5Activity" android:label="Pergunta 5"/>
+        <activity android:name=".Perg6Activity" android:label="Pergunta 6"/>
+        <activity android:name=".Perg7Activity" android:label="Pergunta 7"/>
+        <activity android:name=".Perg8Activity" android:label="Pergunta 8"/>
+        <activity android:name=".Perg9Activity" android:label="Pergunta 9"/>
+        <activity android:name=".Perg10Activity" android:label="Pergunta 10"/>
+        <activity android:name=".ScoreActivity" android:label="Score"/>
+        <activity android:name=".SobreActivity" android:label="Sobre"/>
+    </application>
+
+</manifest>
